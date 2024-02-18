@@ -6,7 +6,7 @@
 [![Issues][issues-shield]][issues-url]
 
 <p align="center">
-  <h1>nueu-view</h1>
+  <h1>Nueu View</h1>
 
   <p align="justify">
     Introducing our revolutionary Nueu-view – description goes here...
