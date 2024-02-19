@@ -43,30 +43,36 @@ To install and run Nueu View Application locally, follow these steps:
     git clone https://github.com/Ahmadjajja/nueu-view.git
 
     ```
+2. **Create Virtual Environment and Activate it**
 
-2. **Install the packages:**
+    ```bash
+        python -m venv env  # creating virtual env
+
+        ./env/Scripts/Activate.ps1 # activating virtual env
+    ```
+3. **Install the packages:**
 
     ```bash
         pip install -r requirements.txt
     
     ```
 
-3. **Run the Application** For back-end 
+4. **Run the Application** For back-end 
 <br>Make sure to update the .env_example with your OPENAI_API_KEY
     ```bash
         python app.py
     
     ```   
-4. For Front-end
+1. For Front-end
     ```bash
         cd client
     ```
-5. install packages
+2. install packages
     ```bash
 
    npm i
     ```
-6. start the client
+3. start the client
     ```bash
 
    npm start
