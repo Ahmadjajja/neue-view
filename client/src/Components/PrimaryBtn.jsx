@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react';
 
-const PrimaryBtn = () => {
-  return <div>PrimaryBtn</div>;
+const PrimaryBtn = ({ width, text }) => {
+  return (
+    <div>
+      <button className="btn btn-primary " style={{ width: width,height:"2.5rem" }}>{text}</button>
+    </div>
+  );
 };
 
 export default PrimaryBtn;
