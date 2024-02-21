@@ -5,3 +5,9 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
+#password-input {
+  background: url("./assets/send.png") no-repeat right;
+  background-size: 20px 20px;
+  padding-right: 50px;
+}

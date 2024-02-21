@@ -1,11 +1,12 @@
 import "./App.css";
-import Home from "./Pages/home/Home";
-import Header from "./Components/Header";
+import Home from "./pages/home/Home";
+import Analyse from "./pages/analyse/Analyse";
+
 function App() {
   return (
     <>
-      <Header />
-     <Home/>
+      <Analyse />
+      {/* <Home /> */}
     </>
   );
 }

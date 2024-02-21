@@ -1,18 +1,25 @@
 import React from "react";
-import Logo from "../assets/Logo.png";
-import RecentImg from "../assets/img.png";
 
-const Header = () => {
+const Header = ({ leftLogo, heading, rightLogo }) => {
   return (
     <>
-      <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>
+      <div
+        style={{
+          marginLeft: "1rem",
+          marginRight: "1rem",
+          backgroundColor: "white",
+        }}
+      >
         <div className="container">
           <nav class="navbar navbar-light ">
             <a class="navbar-brand" href="#">
-              <img src={Logo} width={45} height={30} />
+              <img src={leftLogo} />
             </a>
-            <a class="navbar-brand" href="#">
-              <img src={RecentImg} width={40} height={35} />
+
+            <h2>{heading}</h2>
+
+            <a href="#">
+              <img src={rightLogo} />
             </a>
           </nav>
         </div>
