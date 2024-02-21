@@ -11,7 +11,7 @@ const Home = () => {
             <h1 style={{ fontWeight: "bold", fontFamily: "int" }}>
               Digitize Your Hand-Written Data
             </h1>
-            <p style={{ fontWeight: "bold" }}>
+            <p style={{ fontWeight: "500" }}>
               Select image you want to extract the information from
             </p>
           </div>
