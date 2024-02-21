@@ -1,26 +1,31 @@
-import React from 'react'
-import Logo from "../Assets/Logo.png"
-import RecentImg from "../assets/img.png"
+import React from "react";
 
-const Header = () => {
+const Header = ({ leftLogo, heading, rightLogo }) => {
   return (
     <>
-      <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>
-        <div className='container'>
-
+      <div
+        style={{
+          marginLeft: "1rem",
+          marginRight: "1rem",
+          backgroundColor: "white",
+        }}
+      >
+        <div className="container">
           <nav class="navbar navbar-light ">
             <a class="navbar-brand" href="#">
-              <img src={Logo} width={45} height={30} />
+              <img src={leftLogo} />
             </a>
-            <a class="navbar-brand" href="#">
-              <img src={RecentImg} width={40} height={35} />
+
+            <h2>{heading}</h2>
+
+            <a href="#">
+              <img src={rightLogo} />
             </a>
           </nav>
-
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default Header;
