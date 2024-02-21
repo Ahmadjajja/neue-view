@@ -1,20 +1,28 @@
 from flask import Flask, jsonify, request
-import requests
+from flask_restx import Api,fields,Resource
 from app import ocr
 
 app = Flask(__name__)
+api = Api(app)
 
+ocr_req = api.model('OCR', 
+{
+    'image': fields.Raw(required=True, description='Image data')
+})
 
-@app.route('/perform-ocr', methods=['POST'])
-def perform_ocr():
-    
-    image = request.files['image']
-    ocr_res = ocr(image)
-    return jsonify({"ocr_response": ocr_res})
+ocr_res = api.model('OCRRes', 
+{
+    'ocr_res': fields.String(description='OCR response')
+})
 
-@app.route('/')
-def hello_world():
-    return jsonify({"message": "Hello world"})
+@api.route('/ocr_call')
+class OCR(Resource):
+    @api.expect(ocr_req)
+    @api.expect(ocr_res)
+    def post(self):
+        img = api.payload.get('image')
+        ocr_res = ocr(img)
+        return {"Response ": ocr_res}
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000, host='0.0.0.0')
