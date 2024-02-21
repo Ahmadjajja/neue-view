@@ -1,20 +1,11 @@
 import "./App.css";
-import Header from "./Components/Header";
-import PrimaryBtn from "./Components/PrimaryBtn";
-import SecondaryBtn from "./Components/SecondaryBtn";
-import Home from "./Pages/home/Home";
-
+import Home from "./pages/home/Home";
+import Header from "./components/Header";
 function App() {
   return (
     <>
-   <Header/>
-   <Home/>
-
-
-
-
- 
-
+      <Header />
+      <Home />
     </>
   );
 }
