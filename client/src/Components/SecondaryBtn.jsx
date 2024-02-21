@@ -4,7 +4,7 @@ const SecondaryBtn = ({ width, text }) => {
   return (
     <div>
       <button
-        className="btn btn-secondary "
+        className="btn btn-outline-primary "
         style={{ width: width, height: "2.5rem" }}
       >
         {text}
