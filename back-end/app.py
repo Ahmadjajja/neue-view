@@ -22,16 +22,16 @@ def ocr(img):
     return res
     
 # Read Image  
-img_path = "./images/test-images/skin strategies.jpg"
-img = cv2.imread(img_path)
+# img_path = "./images/test-images/skin strategies.jpg"
+# img = cv2.imread(img_path)
 
 # Calling ocr
-result = ocr(img)
+# result = ocr(img)
 
 # Parse the response
-result = result.content.decode()
-result = json.loads(result)
-parsed_results = result.get("ParsedResults")[0]
-text_detected = parsed_results.get("ParsedText")
+# result = result.content.decode()
+# result = json.loads(result)
+# parsed_results = result.get("ParsedResults")[0]
+# text_detected = parsed_results.get("ParsedText")
 
-print(text_detected)
+# print(text_detected)
