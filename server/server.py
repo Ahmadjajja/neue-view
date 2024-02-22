@@ -4,7 +4,7 @@ from app import ocr
 
 app = Flask(__name__)
 api = Api(app)
-
+  
 ocr_req = api.model('OCR', 
 {
     'image': fields.Raw(required=True, description='Image data')
@@ -21,9 +21,11 @@ class OCR(Resource):
     @api.expect(ocr_res)
     def post(self):
         img = api.payload.get('image')
-        ocr_res = ocr(img)
-        # print(ocr_res)
         
+        # Calling ocr on input image
+        ocr_res = ocr(img)
+            
+        # Returning the results to front-end
         return jsonify(ocr_res)
 
 if __name__ == '__main__':
