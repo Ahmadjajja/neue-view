@@ -6,7 +6,7 @@ __pycache__
 /server/node_modules
 /.pnp
 .pnp.js
-
+/server/database.ipynb
 # testing
 /coverage
 /test.txt
