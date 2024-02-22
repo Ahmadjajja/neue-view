@@ -22,7 +22,9 @@ class OCR(Resource):
     def post(self):
         img = api.payload.get('image')
         ocr_res = ocr(img)
-        return {"Response ": ocr_res}
+        # print(ocr_res)
+        
+        return jsonify(ocr_res)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000, host='0.0.0.0')
