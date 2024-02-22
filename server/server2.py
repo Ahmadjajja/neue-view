@@ -1,5 +1,4 @@
 from flask import Flask, jsonify, request
-
 server = Flask(__name__)
 
 # Dummy JSON data
@@ -20,6 +19,8 @@ def get_resource():
     # response = requests.post(url, files=files, headers=headers)
     # print(response)
     return jsonify(dummy_data)
+
+    
 
 # @server.route('/api/resource', methods=['POST'])
 # def create_resource():
