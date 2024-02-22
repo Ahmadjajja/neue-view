@@ -3,6 +3,7 @@ __pycache__
 # dependencies
 /env
 /node_modules
+/server/node_modules
 /.pnp
 .pnp.js
 
