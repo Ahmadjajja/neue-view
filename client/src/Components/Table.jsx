@@ -34,11 +34,11 @@ const Table = ({ data }) => {
       <table style={tableStyles.table}>
         <thead>
           <tr>
-            <th key={0} style={tableStyles.th}>
+            <th key={0} style={tableStyles.th} className='text-center'>
               Action
             </th>
             {Object.keys(data[0]).map((header, index) => (
-              <th key={index + 1} style={tableStyles.th}>
+              <th key={index + 1} style={tableStyles.th} className='text-center'>
                 {header}
               </th>
             ))}
