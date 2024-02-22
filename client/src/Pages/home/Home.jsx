@@ -4,8 +4,10 @@ import PrimaryBtn from "../../Components/PrimaryBtn";
 import Header from "../../Components/Header";
 import Logo from "../../Assets/Logo.png";
 import RightLogo from "../../Assets/img.png";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   const [filename, setFilename] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useState("English");
 
@@ -15,6 +17,14 @@ const Home = () => {
 
   const handleLanguageChange = (event) => {
     setSelectedLanguage(event.target.value);
+  };
+
+  const handleExtractText = () => {
+    // Perform any necessary actions before navigation
+
+    console.log("Button clicked")
+    // Navigate to the Analyze component
+    navigate("/analyse");
   };
 
   return (
@@ -75,8 +85,9 @@ const Home = () => {
             />
           </div>
 
-          <div className="text-center mt-3">
-            <PrimaryBtn text="Extract Text" width="80%" />
+
+          <div className="text-center mb-5">
+            <PrimaryBtn text="Extract Text" width="80%" onClickHandler={handleExtractText}/>
           </div>
         </div>
       </div>

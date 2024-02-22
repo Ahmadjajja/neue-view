@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = ({ leftLogo, heading, rightLogo }) => {
+const Header = ({ leftLogo, heading, rightLogo, onClickHandler }) => {
   return (
     <>
       <div
@@ -11,10 +11,10 @@ const Header = ({ leftLogo, heading, rightLogo }) => {
         }}
       >
         <div className="container">
-          <nav class="navbar navbar-light ">
-            <a class="navbar-brand" href="#">
+          <nav className="navbar navbar-light ">
+            <span className="navbar-brand"  onClick={onClickHandler} style={{cursor: "pointer"}}> 
               <img src={leftLogo} />
-            </a>
+            </span>
 
             <h2>{heading}</h2>
 

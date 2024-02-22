@@ -1,12 +1,10 @@
 import "./App.css";
-import Home from "./Pages/home/Home";
-import Analyse from "./Pages/analyse/Analyse";
+import CustomRoutes from "./Pages/Routes";
 
 function App() {
   return (
     <>
-      {/* <Analyse /> */}
-      <Home />
+      <CustomRoutes/>
     </>
   );
 }
