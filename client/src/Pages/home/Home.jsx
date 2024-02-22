@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ImageInput from "../../components/ImageInput";
-import PrimaryBtn from "../../components/PrimaryBtn";
-import Header from "../../components/Header";
-import Logo from "../../assets/Logo.png";
-import RightLogo from "../../assets/img.png";
+import ImageInput from "../../Components/ImageInput";
+import PrimaryBtn from "../../Components/PrimaryBtn";
+import Header from "../../Components/Header";
+import Logo from "../../Assets/Logo.png";
+import RightLogo from "../../Assets/img.png";
 
 const Home = () => {
   const [filename, setFilename] = useState("");
@@ -25,7 +25,7 @@ const Home = () => {
           <div className="row mx-3">
             <div className="col-10">
               <h1 style={{ fontWeight: "bold", fontFamily: "int" }}>
-                Digitize Your Hand-Written Data
+                Digitize Your Hand-Written Data 
               </h1>
               <p style={{ fontWeight: "500" }}>
                 Select the image you want to extract information from
