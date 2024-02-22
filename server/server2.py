@@ -3,7 +3,7 @@ server = Flask(__name__)
 
 # Dummy JSON data
 dummy_data = [
-    {"id": 1, "name": "Resource 1", "description": "This is resource 1"},
+    {"id": 1, "name": "Resource 1", "description": "This is resource 1"}, 
     {"id": 2, "name": "Resource 2", "description": "This is resource 2"},
     {"id": 3, "name": "Resource 3", "description": "This is resource 3"}
 ]
