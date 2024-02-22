@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import vector from "../assets/Vector.png";
+import vector from "../Assets/Vector.png";
 import PrimaryBtn from "./PrimaryBtn";
 
 const ImageInput = ({ onFileSelect, setFilename }) => {
@@ -20,8 +20,8 @@ const ImageInput = ({ onFileSelect, setFilename }) => {
   };
 
   return (
-    <div>
-      <div className="uploadOuter" style={{ height: "25rem", overflow: "hidden" }}>
+    <div className="mb-5">
+      <div className="uploadOuter " style={{ height: "25rem", overflow: "hidden" }}>
         <span className="dragBox" style={{ display: "block", height: "100%", position: "relative" }}>
           {previewImage ? (
             <img src={previewImage} alt="Preview" style={{ maxWidth: "100%", maxHeight: "100%" }} />

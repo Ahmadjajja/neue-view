@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../../components/Header";
-import backBtn from "../../assets/backBtn.png";
+import Header from "../../Components/Header";
+import backBtn from "../../Assets/backBtn.png";
 const Analyse = () => {
   return (
     <>
@@ -12,25 +12,29 @@ const Analyse = () => {
           height: "93.5vh",
         }}
       >
-        <div className="container pt-5">
-          <h1>Analys</h1>
+        <div className="container pt-5 text-center">
+          <h1>Analyse</h1>
         </div>
 
-        <input
-          type="text"
-          placeholder="Ask me anything..."
-          id="password-input"
-          style={{
-            position: "absolute",
-            margin: "0 auto",
-            display: "block",
-            bottom: "15px",
-            border: "none",
-            backgroundColor: "white",
-            padding: "5px 70px",
-            borderRadius: "10px",
-          }}
-        />
+        <div className="d-flex justify-content-center">
+          <input
+            type="text"
+            className="text-center"
+            placeholder="Ask me anything..."
+            id="password-input"
+            style={{
+              width: "80%",
+              position: "absolute",
+              margin: "auto",
+              display: "block",
+              bottom: "15px",
+              border: "none",
+              backgroundColor: "white",
+              padding: "5px 70px",
+              borderRadius: "10px",
+            }}
+          />
+        </div>
       </div>
     </>
   );

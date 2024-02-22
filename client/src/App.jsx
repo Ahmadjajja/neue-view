@@ -1,12 +1,12 @@
 import "./App.css";
-import Home from "./pages/home/Home";
-import Analyse from "./pages/analyse/Analyse";
+import Home from "./Pages/home/Home";
+import Analyse from "./Pages/analyse/Analyse";
 
 function App() {
   return (
     <>
-      <Analyse />
-      {/* <Home /> */}
+      {/* <Analyse /> */}
+      <Home />
     </>
   );
 }
