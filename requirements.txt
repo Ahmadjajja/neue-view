@@ -5,3 +5,6 @@ opencv-python
 python-dotenv
 Flask
 flask-restx
+pinecone-client
+pandas
+jupyter
