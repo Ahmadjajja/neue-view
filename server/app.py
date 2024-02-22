@@ -19,4 +19,3 @@ def ocr(img):
     # print(response.get("text"))
     return response
     
-    
