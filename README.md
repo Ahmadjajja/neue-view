@@ -1,8 +1,11 @@
-<!-- [![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0-brightgreen)](https://www.streamlit.io/)
-[![Clarifai](https://img.shields.io/badge/Clarifai-9.10.4-blue)](https://www.clarifai.com/) -->
 [![Python](https://img.shields.io/badge/Python-3.11.3-blue)](https://www.python.org/)
 
-# Nueu View
+# Neue View
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 <p align="center">
   <a href="https://github.com/Ahmadjajja/nueu-view"><img src="images/assets/logo.png" alt="logo.svg" height="200" width = "200"/></a>
@@ -127,18 +130,19 @@ See the demo [here](#).
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-[watchers-shield]: https://img.shields.io/github/watchers/Ahmadjajja/nueu-view.svg?style=for-the-badge
-[watchers-url]: https://github.com/Ahmadjajja/nueu-view/watchers
-[contributors-shield]: https://img.shields.io/github/contributors/Ahmadjajja/nueu-view.svg?style=for-the-badge
-[contributors-url]: https://github.com/Ahmadjajja/nueu-view/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Ahmadjajja/nueu-view.svg?style=for-the-badge
-[forks-url]: https://github.com/Ahmadjajja/nueu-view/network/members
-[stars-shield]: https://img.shields.io/github/stars/Ahmadjajja/nueu-view.svg?style=for-the-badge
-[stars-url]: https://github.com/Ahmadjajja/nueu-view/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Ahmadjajja/nueu-view.svg?style=for-the-badge
-[issues-url]: https://github.com/Ahmadjajja/nueu-view/issues
-[license-shield]: https://img.shields.io/github/license/Ahmadjajja/nueu-view.svg?style=for-the-badge
-[license-url]: https://github.com/Ahmadjajja/nueu-view/blob/master/LICENSE.txt
+[python-image]: https://img.shields.io/badge/python-v3.6+-blue.svg
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
+
+[contributors-shield]: https://img.shields.io/github/contributors/Ahmadjajja/neue-view.svg?style=for-the-badge
+[contributors-url]: https://github.com/Ahmadjajja/neue-view/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Ahmadjajja/neue-view.svg?style=for-the-badge
+[forks-url]: https://github.com/Ahmadjajja/neue-view/network/members
+[stars-shield]: https://img.shields.io/github/stars/Ahmadjajja/neue-view.svg?style=for-the-badge
+[stars-url]: https://github.com/Ahmadjajja/neue-view/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Ahmadjajja/neue-view.svg?style=for-the-badge
+[issues-url]: https://github.com/Ahmadjajja/neue-view/issues
+[license-shield]: https://img.shields.io/github/license/Ahmadjajja/neue-view.svg?style=for-the-badge
+[license-url]: https://github.com/Ahmadjajja/neue-view/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 
