@@ -30,7 +30,7 @@ const tableStyles = {
 
 const Table = ({ data }) => {
   return (
-    <div style={{ overflowX: 'auto' }}>
+    <div style={{ height: "50vh", overflow: 'auto' }} >
       <table style={tableStyles.table}>
         <thead>
           <tr>

@@ -1,18 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import ImageInput from "../../Components/ImageInput";
 import PrimaryBtn from "../../Components/PrimaryBtn";
 import Header from "../../Components/Header";
 import Logo from "../../Assets/Logo.png";
 import RightLogo from "../../Assets/img.png";
 import { useNavigate } from "react-router-dom";
+import { ThreeDots } from "react-loader-spinner";
+import "./Home.css"; // Import CSS file for custom styling
+import { DataContext } from "../../Context/DataContext";
 
 const Home = () => {
+  const {setImageName}= useContext(DataContext);
   const navigate = useNavigate();
   const [filename, setFilename] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useState("English");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleFileSelect = (selectedFilename) => {
     setFilename(selectedFilename);
+    setImageName(selectedFilename)
   };
 
   const handleLanguageChange = (event) => {
@@ -21,11 +27,15 @@ const Home = () => {
 
   const handleExtractText = () => {
     // Perform any necessary actions before navigation
-
-    console.log("Button clicked")
-    // Navigate to the Analyze component
-    navigate("/analyse");
+    setIsLoading(true);
+  
+    // Simulate a delay of 3 seconds before navigating
+    setTimeout(() => {
+      // Navigate to the Analyze component
+      navigate("/analyse");
+    }, 3000);
   };
+  
 
   return (
     <>
@@ -35,7 +45,7 @@ const Home = () => {
           <div className="row mx-3">
             <div className="col-10">
               <h1 style={{ fontWeight: "bold", fontFamily: "int" }}>
-                Digitize Your Hand-Written Data 
+                Digitize Your Hand-Written Data
               </h1>
               <p style={{ fontWeight: "500" }}>
                 Select the image you want to extract information from
@@ -86,8 +96,16 @@ const Home = () => {
           </div>
 
 
-          <div className="text-center mb-5">
-            <PrimaryBtn text="Extract Text" width="80%" onClickHandler={handleExtractText}/>
+          <div className="text-center mb-5" >
+            <PrimaryBtn style={{display: "block"}} className="text-center" display="block" text={isLoading ? <ThreeDots
+              radius="9"
+              color="white"
+              ariaLabel="three-dots-loading"
+              wrapperStyle={{}}
+              wrapperClassName="loader-block"
+              visible={true}
+              className="loader d-block text-center"
+            />: "Extract Text"} width="80%" onClickHandler={handleExtractText} />
           </div>
         </div>
       </div>

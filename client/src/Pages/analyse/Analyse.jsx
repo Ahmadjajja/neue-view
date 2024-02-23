@@ -1,21 +1,44 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import Header from "../../Components/Header";
 import backBtn from "../../Assets/backBtn.png";
 import dumyData from "../../Data/DumyData";
 import Table from "../../Components/Table";
 import { useNavigate } from "react-router-dom";
-
+import { ThreeDots } from "react-loader-spinner";
+import { DataContext } from "../../Context/DataContext";
 const Analyse = () => {
+  const { imageName } = useContext(DataContext);
   const navigate = useNavigate();
+  const [isLoading, setIsLoading] = useState(true);
+  const [isPushLoading, setIsPushLoading] = useState(false);
+  const [isDataStored, setIsDataStored] = useState(false);
   const [data, setData] = useState(dumyData)
+
+  useEffect(() => {
+    // Simulate a delay of 3 seconds before navigating
+    setTimeout(() => {
+      // Navigate to the Analyze component
+      setIsLoading(false)
+    }, 3000);
+  }, [])
 
   const handleBack = () => {
     navigate("/");
   }
 
+  const dataHandler = () => {
+    setIsPushLoading(true);
+    // Simulate a delay of 3 seconds before navigating
+    setTimeout(() => {
+      // Navigate to the Analyze component
+      setIsPushLoading(false);
+      setIsDataStored(true);
+    }, 3000);
+  }
+
   return (
     <>
-      <Header leftLogo={backBtn} heading="File Name" onClickHandler={handleBack} />
+      <Header leftLogo={backBtn} heading={imageName} onClickHandler={handleBack} />
 
       <div
         style={{
@@ -24,9 +47,24 @@ const Analyse = () => {
         }}
       >
         <div className="container pt-5 text-center">
-          <Table data={data} />
+          {isLoading ? <div style={{ height: "50vh", display: "flex", alignItems: "center", justifyContent: "center" }}><ThreeDots
+            visible={true}
+            height="80"
+            width="80"
+            color="#4fa94d"
+            radius="9"
+            ariaLabel="three-dots-loading"
+            wrapperStyle={{}}
+            wrapperClass=""
+          /></div> : <Table data={data} />}
+
           <div class="d-grid gap-2 col-6 mx-auto mt-5">
-            <button class="btn btn-outline-primary" type="button">Done</button>
+            <button class="btn btn-outline-primary" type="button" onClick={dataHandler}>
+              {isPushLoading ? <div className='spinner-border spinner-border-sm'></div> : "Store Data to DB"}
+            </button>
+            {isDataStored &&
+              <h1 className="text-center text-primary">Data Stored</h1>
+            }
           </div>
         </div>
 
