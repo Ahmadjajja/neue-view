@@ -58,19 +58,19 @@
     Neue View is an OCR solution powered by AI that aims to overcome the challenges of digitizing written data and converting it into insightful information, data entry, and visualization. This web-based OCR system makes it easy and efficient for non-technical users to digitize and analyze information. The two main problems that Neue View solves are; first, digitizing written data is a challenging task for every business. It is time-consuming, expensive, and not scalable in today's digital era. Secondly, there is an impending problem of an aging society where, by 2050, 20% of the population will be 65 years and above. This issue will demand new ways to maintain the same productivity. Doing manual data entry alone for 1% of US businesses would cost around 18 billion dollars annually. Users can capture or upload images from various devices using a web application. They can then select a language output and receive digitized data. The new view will convert the image to editable text that the user can export in various file formats. Users can also edit the text to improve the accuracy of our AI model and make conversational inputs to gain insights from the data. A new feature also allows users to create visualizations for better understanding of the information.
     <br />
     <br />
-    <a href="https://lablab.ai/event/gpt-4-powered-app-creation-hackathon/neue-view/neue-view" target="_blank"><img src="./client/src/Assets/neue-view/team.jpg" ></a>
+    <a href="https://drive.google.com/file/d/1gAbVUG-wzykDrJikrkk5oEQoNmt8EdVs/view?usp=sharing" target="_blank"><img src="./client/src/Assets/neue-view/team.jpg" ></a>
     <br />
-    <img src="./client/src/Assets/neue-view/1.jpg" style="width: 100vw">
+    <img src="https://drive.google.com/file/d/1dLQgYvLMp7X3VtJ08wZwUD-qVPjZOuMU/view?usp=sharing" style="width: 100vw">
         <br />
-    <img src="./client/src/Assets/neue-view/2.jpg" style="width: 100vw">
+    <img src="https://drive.google.com/file/d/1Hs0pZTUqzbNnB5nYk1EYIWWyeGijdGCI/view?usp=sharing" style="width: 100vw">
         <br />
-    <img src="./client/src/Assets/neue-view/3.jpg" style="width: 100vw">
+    <img src="https://drive.google.com/file/d/15qvUZKVFO1eXqNiE8-6ey8qG5pipss0c/view?usp=sharing" style="width: 100vw">
         <br />
-    <img src="./client/src/Assets/neue-view/4.jpg" style="width: 100vw">
+    <img src="https://drive.google.com/file/d/1oKEl8KasJSWVyWvPVXmZCXfq8FTZNLo_/view?usp=sharing" style="width: 100vw">
         <br />
-    <img src="./client/src/Assets/neue-view/5.jpg" style="width: 100vw">
+    <img src="https://drive.google.com/file/d/1fdvVgYHmSbpUHSq94p5Ymyp7Bo6ip9n9/view?usp=sharing" style="width: 100vw">
         <br />
-    <img src="./client/src/Assets/neue-view/6.jpg" style="width: 100vw">
+    <img src="https://drive.google.com/file/d/1IuEgYV_TreZCnr-z2RPtolaLmHkKmFD7/view?usp=sharing" style="width: 100vw">
     <br />
     <a href="https://github.com/Ahmadjajja/neue-view"><strong>Explore the docs »</strong></a>
     <br />
