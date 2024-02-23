@@ -61,7 +61,6 @@
 
 ![Team](https://drive.google.com/uc?export=view&id=1gAbVUG-wzykDrJikrkk5oEQoNmt8EdVs)
 ![Image 1](https://drive.google.com/uc?export=view&id=1dLQgYvLMp7X3VtJ08wZwUD-qVPjZOuMU)
-![Image 1](https://drive.google.com/uc?export=view&id=1dLQgYvLMp7X3VtJ08wZwUD-qVPjZOuMU)
 ![Image 2](https://drive.google.com/uc?export=view&id=1Hs0pZTUqzbNnB5nYk1EYIWWyeGijdGCI)
 ![Image 3](https://drive.google.com/uc?export=view&id=15qvUZKVFO1eXqNiE8-6ey8qG5pipss0c)
 ![Image 4](https://drive.google.com/uc?export=view&id=1oKEl8KasJSWVyWvPVXmZCXfq8FTZNLo_)
