@@ -6,6 +6,7 @@ import Table from "../../Components/Table";
 import { useNavigate } from "react-router-dom";
 import { ThreeDots } from "react-loader-spinner";
 import { DataContext } from "../../Context/DataContext";
+import { TiArrowUpOutline } from "react-icons/ti";
 const Analyse = () => {
   const { imageName } = useContext(DataContext);
   const navigate = useNavigate();
@@ -68,7 +69,16 @@ const Analyse = () => {
           </div>
         </div>
 
-        <div className="d-flex justify-content-center">
+        <div className="input-group mb-3 mt-4 d-flex justify-content-center" style={{width: "80%", margin: "0 auto"}}>
+          <input type="text" className="form-control" placeholder="Ask me anything..." aria-label="Username" aria-describedby="basic-addon1" />
+          <span className="btn btn-outline-primary" id="basic-addon1">
+            {/* <img src="./send.png" alt="send" /> */}
+            <TiArrowUpOutline />
+          </span>
+        </div>
+
+
+        {/* <div className="d-flex justify-content-center">
           <input
             type="text"
             className="text-center mt-5"
@@ -86,7 +96,7 @@ const Analyse = () => {
               borderRadius: "10px",
             }}
           />
-        </div>
+        </div> */}
       </div>
     </>
   );
