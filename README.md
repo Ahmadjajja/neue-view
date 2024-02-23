@@ -122,15 +122,6 @@ To install and run Nueu View Application locally, follow these steps:
    npm start
 
     ```
-## Usage
-write Usage of our app here...
-
-### Visuals
-![](/images/assets/app_tour.png)
-Provide visuals short description here:
-![](/images/assets/Input.png)
-Provide visuals short description here:
-![](/images/assets/output.png)
 
 ### Where to ask for help?
 Open a discussion or stop by our [discord](https://discord.gg/64wZsbnB) server. <br> Report the bug [here](https://github.com/Ahmadjajja/nueu-view/issues).
@@ -153,9 +144,6 @@ or
 4. Commit your Changes (`git commit -m 'Add message here'`)
 5. Push to the Branch (`git push origin yourBranchName`)
 6. Open a Pull Request
-
-### Demo
-See the demo [here](#).
 
 ## License
 
