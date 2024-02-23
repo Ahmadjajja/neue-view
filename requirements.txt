@@ -6,6 +6,6 @@ python-dotenv
 Flask
 flask-restx
 pinecone-client
-pandas
+pandas  
 jupyter
 trulens-eval

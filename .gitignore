@@ -7,7 +7,7 @@ __pycache__
 /.pnp
 .pnp.js
 /server/database.ipynb
-# testing
+# testing   
 /coverage
 /test.txt
 
