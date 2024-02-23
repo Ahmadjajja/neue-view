@@ -1,5 +1,3 @@
-[![Python](https://img.shields.io/badge/Python-3.11.3-blue)](https://www.python.org/)
-
 # Neue View
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -7,9 +5,57 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-<p align="center">
-  <h1>Neue View</h1>
+## Team Members
+<table>
+    <tbody>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/Ahmadjajja">
+                    <img src="https://avatars.githubusercontent.com/u/86593662?v=4" width="100px;" alt="Ahmad Jajja"/>
+                    <br />
+                    <sub><b>Ahmad Jajja</b></sub>
+                </a> 
+            </td>
+            <td align="center">
+                <a href="https://www.linkedin.com/in/pariphat-sinma/">
+                    <img src="https://media.licdn.com/dms/image/D5603AQGXrNIgaMfevg/profile-displayphoto-shrink_800_800/0/1706634185940?e=1714003200&v=beta&t=zxuF6Pm854y-c8ZSMPw14XDxIenoN8oby1-ODYBx1-U" width="100px;" alt="Pariphat Sinma"/>
+                    <br />
+                    <sub><b>Pariphat Sinma</b></sub>
+                </a> 
+            </td>
+            <td align="center">
+          <a href="https://github.com/inamprograms">
+                    <img src="https://avatars.githubusercontent.com/u/113470083?v=4" width="100px;" alt="Inam Ul Rehman"/>
+                    <br />
+                    <sub><b>Inam Ul Rehman</b></sub>
+                </a> 
+            </td>
+          <td align="center">
+                <a href="https://github.com/Hassamaziz">
+                    <img src="https://avatars.githubusercontent.com/u/118983911?v=4" width="100px;" alt="Hassam Aziz"/>
+                    <br />
+                    <sub><b>Hassam Aziz</b></sub>
+                </a> 
+            </td>
+          <td align="center">
+                <a href="https://github.com/hassangulzar1">
+                    <img src="https://avatars.githubusercontent.com/u/122821437?v=4" width="100px;" alt="M.Hassan Gulzar"/>
+                    <br />
+                    <sub><b>M.Hassan Gulzar</b></sub>
+                </a> 
+            </td>
+          <td align="center">
+                <a href="https://www.linkedin.com/in/faraz-shoaib-55368a19a/">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQG1YwVWmMkliA/profile-displayphoto-shrink_800_800/0/1692440912773?e=1714003200&v=beta&t=xESCKOMkZFfGRQa1_MZgItNYk7BTpmURdxx3TNDn7SQ" width="100px;" alt="Faraz Shoaib "/>
+                    <br />
+                    <sub><b>Faraz Shoaib </b></sub>
+                </a> 
+            </td>
+        </tr> 
+</tbody>
+<table>
 
+<p align="center">
   <p align="justify">
     Neue View is an OCR solution powered by AI that aims to overcome the challenges of digitizing written data and converting it into insightful information, data entry, and visualization. This web-based OCR system makes it easy and efficient for non-technical users to digitize and analyze information. The two main problems that Neue View solves are; first, digitizing written data is a challenging task for every business. It is time-consuming, expensive, and not scalable in today's digital era. Secondly, there is an impending problem of an aging society where, by 2050, 20% of the population will be 65 years and above. This issue will demand new ways to maintain the same productivity. Doing manual data entry alone for 1% of US businesses would cost around 18 billion dollars annually. Users can capture or upload images from various devices using a web application. They can then select a language output and receive digitized data. The new view will convert the image to editable text that the user can export in various file formats. Users can also edit the text to improve the accuracy of our AI model and make conversational inputs to gain insights from the data. A new feature also allows users to create visualizations for better understanding of the information.
     <br />
@@ -109,51 +155,6 @@ or
 4. Commit your Changes (`git commit -m 'Add message here'`)
 5. Push to the Branch (`git push origin yourBranchName`)
 6. Open a Pull Request
-
-## Team Members
-<table>
-    <tbody>
-        <tr>
-            <td align="center">
-                <a href="https://github.com/Ahmadjajja">
-                    <img src="https://avatars.githubusercontent.com/u/86593662?v=4" width="100px;" alt="Ahmad Jajja"/>
-                    <br />
-                    <sub><b>Ahmad Jajja</b></sub>
-                </a> 
-            </td>
-            <td align="center">
-                <a href="https://www.linkedin.com/in/pariphat-sinma/">
-                    <img src="https://media.licdn.com/dms/image/D5603AQGXrNIgaMfevg/profile-displayphoto-shrink_800_800/0/1706634185940?e=1714003200&v=beta&t=zxuF6Pm854y-c8ZSMPw14XDxIenoN8oby1-ODYBx1-U" width="100px;" alt="Pariphat Sinma"/>
-                    <br />
-                    <sub><b>Pariphat Sinma</b></sub>
-                </a> 
-            </td>
-            <td align="center">
-          <a href="https://github.com/inamprograms">
-                    <img src="https://avatars.githubusercontent.com/u/113470083?v=4" width="100px;" alt="Inam Ul Rehman"/>
-                    <br />
-                    <sub><b>Inam Ul Rehman</b></sub>
-                </a> 
-            </td>
-          <td align="center">
-                <a href="https://github.com/Hassamaziz">
-                    <img src="https://avatars.githubusercontent.com/u/118983911?v=4" width="100px;" alt="Hassam Aziz"/>
-                    <br />
-                    <sub><b>Hassam Aziz</b></sub>
-                </a> 
-            </td>
-          <td align="center">
-                <a href="https://github.com/hassangulzar1">
-                    <img src="https://avatars.githubusercontent.com/u/122821437?v=4" width="100px;" alt="Bashaar Chohan"/>
-                    <br />
-                    <sub><b>M.Hassan Gulzar</b></sub>
-                </a> 
-            </td>
-        </tr> 
-</tbody>
-<table>
-
-Also, thanks to all [contributors][contributors-url] of the software.
 
 ### Demo
 See the demo [here](#).
